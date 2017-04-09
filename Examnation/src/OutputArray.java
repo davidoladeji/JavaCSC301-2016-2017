@@ -8,5 +8,7 @@ public class OutputArray {
         for (int cnt=0; cnt< arrayNum.length; cnt++){
             System.out.println(arrayNum[cnt]);
         }
+
+
     }
 }

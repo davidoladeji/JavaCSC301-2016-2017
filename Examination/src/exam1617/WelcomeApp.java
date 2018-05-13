@@ -1,3 +1,5 @@
+package exam1617;
+
 import java.util.Scanner;
 
 /**

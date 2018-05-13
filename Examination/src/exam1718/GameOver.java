@@ -5,9 +5,9 @@ public class GameOver {
         String numberStatus = gameOver(2, 10);
         System.out.println(numberStatus);
     }
-    public static String gameOver(int low, int high){
+    private static String gameOver(int low, int high){
         String outputString;
-            Random rand = new Random();
+            Random rand  = new Random();
             int ourRandom = rand.nextInt(high-low+1)+low;
         int factors = 0;
         int j = 1;
